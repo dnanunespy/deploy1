@@ -1,0 +1,100 @@
+[2m2024-08-18T17:47:12Z[0m app[2874de6f040028] [32mgru[0m [[34minfo[0m]2024/08/18 17:47:12 INFO SSH listening listen_address=[fdaa:9:de46:a7b:17e:2e3c:e294:2]:22 dns_server=[fdaa::3]:53
+[2m2024-08-18T17:47:12Z[0m runner[2874de6f040028] [32mgru[0m [[34minfo[0m]Machine started in 1.064s
+[2m2024-08-18T17:47:12Z[0m proxy[2874de6f040028] [32mgru[0m [[34minfo[0m]machine started in 1.093378142s
+[2m2024-08-18T17:47:13Z[0m app[2874de6f040028] [32mgru[0m [[34minfo[0m][32m INFO[0m Main child exited normally with code: 0
+[2m2024-08-18T17:47:13Z[0m app[2874de6f040028] [32mgru[0m [[34minfo[0m][32m INFO[0m Starting clean up.
+[2m2024-08-18T17:47:13Z[0m app[2874de6f040028] [32mgru[0m [[34minfo[0m][33m WARN[0m could not unmount /rootfs: EINVAL: Invalid argument
+[2m2024-08-18T17:47:13Z[0m app[2874de6f040028] [32mgru[0m [[34minfo[0m][    1.788169] reboot: Restarting system
+[2m2024-08-18T17:47:14Z[0m runner[2874de6f040028] [32mgru[0m [[34minfo[0m]machine exited with exit code 0, not restarting
+[2m2024-08-18T17:47:20Z[0m proxy[2874de6f040028] [32mgru[0m [[34minfo[0m]waiting for machine to be reachable on 0.0.0.0:8080 (waited 7.084151567s so far)
+[2m2024-08-18T17:47:26Z[0m proxy[2874de6f040028] [32mgru[0m [[34minfo[0m]waiting for machine to be reachable on 0.0.0.0:8080 (waited 13.088660029s so far)
+[2m2024-08-18T17:47:32Z[0m proxy[2874de6f040028] [32mgru[0m [[34minfo[0m]waiting for machine to be reachable on 0.0.0.0:8080 (waited 19.090166432s so far)
+[2merror.message=[0m"failed to connect to machine: gave up after 15 attempts (in 24.093690999s)" [2m2024-08-18T17:47:37Z[0m proxy[2874de6f040028] [32mgru[0m [[31merror[0m][2mrequest.method=[0m"GET" [2mrequest.id=[0m"01J5K9DWJ19HKXJ3YKPTKQC42D-gru" 
+[2m2024-08-18T17:47:37Z[0m proxy[080e471c6539d8] [32mgru[0m [[34minfo[0m]Starting machine
+[2m2024-08-18T17:47:37Z[0m app[080e471c6539d8] [32mgru[0m [[34minfo[0m]2024-08-18T17:47:37.286971771 [01J5K9BH7HEDRY5FYNEF1BDTSR:main] Running Firecracker v1.7.0
+[2m2024-08-18T17:47:37Z[0m app[080e471c6539d8] [32mgru[0m [[34minfo[0m][    0.294666] PCI: Fatal: No config space access function found
+[2m2024-08-18T17:47:38Z[0m app[080e471c6539d8] [32mgru[0m [[34minfo[0m][32m INFO[0m Starting init (commit: 20f21dc5f)...
+[2m2024-08-18T17:47:38Z[0m app[080e471c6539d8] [32mgru[0m [[34minfo[0m][32m INFO[0m Preparing to run: `/cnb/process/web` as 1000
+[2m2024-08-18T17:47:38Z[0m app[080e471c6539d8] [32mgru[0m [[34minfo[0m][32m INFO[0m [fly api proxy] listening at /.fly/api
+[2m2024-08-18T17:47:38Z[0m app[080e471c6539d8] [32mgru[0m [[34minfo[0m]2024/08/18 17:47:38 INFO SSH listening listen_address=[fdaa:9:de46:a7b:170:c42c:a725:2]:22 dns_server=[fdaa::3]:53
+[2m2024-08-18T17:47:38Z[0m runner[080e471c6539d8] [32mgru[0m [[34minfo[0m]Machine started in 1.057s
+[2m2024-08-18T17:47:38Z[0m proxy[080e471c6539d8] [32mgru[0m [[34minfo[0m]machine started in 1.1003682s
+[2m2024-08-18T17:47:39Z[0m app[080e471c6539d8] [32mgru[0m [[34minfo[0m][32m INFO[0m Main child exited normally with code: 0
+[2m2024-08-18T17:47:39Z[0m app[080e471c6539d8] [32mgru[0m [[34minfo[0m][32m INFO[0m Starting clean up.
+[2m2024-08-18T17:47:39Z[0m app[080e471c6539d8] [32mgru[0m [[34minfo[0m][33m WARN[0m could not unmount /rootfs: EINVAL: Invalid argument
+[2m2024-08-18T17:47:39Z[0m app[080e471c6539d8] [32mgru[0m [[34minfo[0m][    1.728197] reboot: Restarting system
+[2m2024-08-18T17:47:39Z[0m runner[080e471c6539d8] [32mgru[0m [[34minfo[0m]machine exited with exit code 0, not restarting
+[2m2024-08-18T17:47:45Z[0m proxy[080e471c6539d8] [32mgru[0m [[34minfo[0m]waiting for machine to be reachable on 0.0.0.0:8000 (waited 7.290876133s so far)
+[2m2024-08-18T17:47:51Z[0m proxy[080e471c6539d8] [32mgru[0m [[34minfo[0m]waiting for machine to be reachable on 0.0.0.0:8000 (waited 13.295031141s so far)
+[2m2024-08-18T17:47:57Z[0m proxy[080e471c6539d8] [32mgru[0m [[34minfo[0m]waiting for machine to be reachable on 0.0.0.0:8000 (waited 19.299107587s so far)
+[2merror.message=[0m"failed to connect to machine: gave up after 15 attempts (in 24.302974448s)" [2m2024-08-18T17:48:02Z[0m proxy[080e471c6539d8] [32mgru[0m [[31merror[0m][2mrequest.method=[0m"GET" [2mrequest.id=[0m"01J5K9DWJ19HKXJ3YKPTKQC42D-gru" 
+[2m2024-08-18T17:48:02Z[0m proxy[080e471c6539d8] [32mgru[0m [[34minfo[0m]Starting machine
+[2m2024-08-18T17:48:02Z[0m app[080e471c6539d8] [32mgru[0m [[34minfo[0m]2024-08-18T17:48:02.690229895 [01J5K9BH7HEDRY5FYNEF1BDTSR:main] Running Firecracker v1.7.0
+[2m2024-08-18T17:48:03Z[0m app[080e471c6539d8] [32mgru[0m [[34minfo[0m][    0.291070] PCI: Fatal: No config space access function found
+[2m2024-08-18T17:48:03Z[0m app[080e471c6539d8] [32mgru[0m [[34minfo[0m][32m INFO[0m Starting init (commit: 20f21dc5f)...
+[2m2024-08-18T17:48:03Z[0m app[080e471c6539d8] [32mgru[0m [[34minfo[0m][32m INFO[0m Preparing to run: `/cnb/process/web` as 1000
+[2m2024-08-18T17:48:03Z[0m app[080e471c6539d8] [32mgru[0m [[34minfo[0m][32m INFO[0m [fly api proxy] listening at /.fly/api
+[2m2024-08-18T17:48:03Z[0m app[080e471c6539d8] [32mgru[0m [[34minfo[0m]2024/08/18 17:48:03 INFO SSH listening listen_address=[fdaa:9:de46:a7b:170:c42c:a725:2]:22 dns_server=[fdaa::3]:53
+[2m2024-08-18T17:48:03Z[0m runner[080e471c6539d8] [32mgru[0m [[34minfo[0m]Machine started in 1.077s
+[2m2024-08-18T17:48:03Z[0m proxy[080e471c6539d8] [32mgru[0m [[34minfo[0m]machine started in 1.1434463s
+[2m2024-08-18T17:48:04Z[0m app[080e471c6539d8] [32mgru[0m [[34minfo[0m][32m INFO[0m Main child exited normally with code: 0
+[2m2024-08-18T17:48:04Z[0m app[080e471c6539d8] [32mgru[0m [[34minfo[0m][32m INFO[0m Starting clean up.
+[2m2024-08-18T17:48:04Z[0m app[080e471c6539d8] [32mgru[0m [[34minfo[0m][33m WARN[0m could not unmount /rootfs: EINVAL: Invalid argument
+[2m2024-08-18T17:48:04Z[0m app[080e471c6539d8] [32mgru[0m [[34minfo[0m][    1.740932] reboot: Restarting system
+[2m2024-08-18T17:48:04Z[0m runner[080e471c6539d8] [32mgru[0m [[34minfo[0m]machine exited with exit code 0, not restarting
+[2m2024-08-18T17:48:10Z[0m proxy[080e471c6539d8] [32mgru[0m [[34minfo[0m]waiting for machine to be reachable on 0.0.0.0:8080 (waited 7.155230001s so far)
+[2m2024-08-18T17:48:16Z[0m proxy[080e471c6539d8] [32mgru[0m [[34minfo[0m]waiting for machine to be reachable on 0.0.0.0:8080 (waited 13.156998007s so far)
+[2m2024-08-18T17:48:22Z[0m proxy[080e471c6539d8] [32mgru[0m [[34minfo[0m]waiting for machine to be reachable on 0.0.0.0:8080 (waited 19.070275405s so far)
+[2merror.message=[0m"failed to connect to machine: gave up after 15 attempts (in 24.073454944s)" [2m2024-08-18T17:48:27Z[0m proxy[080e471c6539d8] [32mgru[0m [[31merror[0m][2mrequest.method=[0m"GET" [2mrequest.id=[0m"01J5K9DWJ19HKXJ3YKPTKQC42D-gru" 
+[2m2024-08-18T17:48:27Z[0m proxy[2874de6f040028] [32mgru[0m [[34minfo[0m]Starting machine
+[2m2024-08-18T17:48:27Z[0m app[2874de6f040028] [32mgru[0m [[34minfo[0m]2024-08-18T17:48:27.897361995 [01J5K9B5HPWKSN290Z9TP9XM70:main] Running Firecracker v1.7.0
+[2m2024-08-18T17:48:28Z[0m app[2874de6f040028] [32mgru[0m [[34minfo[0m][    0.304376] PCI: Fatal: No config space access function found
+[2m2024-08-18T17:48:28Z[0m app[2874de6f040028] [32mgru[0m [[34minfo[0m][32m INFO[0m Starting init (commit: 20f21dc5f)...
+[2m2024-08-18T17:48:28Z[0m app[2874de6f040028] [32mgru[0m [[34minfo[0m][32m INFO[0m Preparing to run: `/cnb/process/web` as 1000
+[2m2024-08-18T17:48:28Z[0m app[2874de6f040028] [32mgru[0m [[34minfo[0m][32m INFO[0m [fly api proxy] listening at /.fly/api
+[2m2024-08-18T17:48:28Z[0m app[2874de6f040028] [32mgru[0m [[34minfo[0m]2024/08/18 17:48:28 INFO SSH listening listen_address=[fdaa:9:de46:a7b:17e:2e3c:e294:2]:22 dns_server=[fdaa::3]:53
+[2m2024-08-18T17:48:28Z[0m runner[2874de6f040028] [32mgru[0m [[34minfo[0m]Machine started in 1.075s
+[2m2024-08-18T17:48:28Z[0m proxy[2874de6f040028] [32mgru[0m [[34minfo[0m]machine started in 1.100930969s
+[2m2024-08-18T17:48:29Z[0m app[2874de6f040028] [32mgru[0m [[34minfo[0m][32m INFO[0m Main child exited normally with code: 0
+[2m2024-08-18T17:48:29Z[0m app[2874de6f040028] [32mgru[0m [[34minfo[0m][32m INFO[0m Starting clean up.
+[2m2024-08-18T17:48:29Z[0m app[2874de6f040028] [32mgru[0m [[34minfo[0m][33m WARN[0m could not unmount /rootfs: EINVAL: Invalid argument
+[2m2024-08-18T17:48:29Z[0m app[2874de6f040028] [32mgru[0m [[34minfo[0m][    1.789220] reboot: Restarting system
+[2m2024-08-18T17:48:30Z[0m runner[2874de6f040028] [32mgru[0m [[34minfo[0m]machine exited with exit code 0, not restarting
+[2m2024-08-18T17:48:36Z[0m proxy[2874de6f040028] [32mgru[0m [[34minfo[0m]waiting for machine to be reachable on 0.0.0.0:8000 (waited 7.619849833s so far)
+[2m2024-08-18T17:48:42Z[0m proxy[2874de6f040028] [32mgru[0m [[34minfo[0m]waiting for machine to be reachable on 0.0.0.0:8000 (waited 13.623135307s so far)
+[2m2024-08-18T17:48:48Z[0m proxy[2874de6f040028] [32mgru[0m [[34minfo[0m]waiting for machine to be reachable on 0.0.0.0:8000 (waited 19.626767254s so far)
+[2merror.message=[0m"failed to connect to machine: gave up after 15 attempts (in 24.630107506s)" [2m2024-08-18T17:48:53Z[0m proxy[2874de6f040028] [32mgru[0m [[31merror[0m][2mrequest.method=[0m"GET" [2mrequest.id=[0m"01J5K9DWJ19HKXJ3YKPTKQC42D-gru" 
+[2m2024-08-18T17:48:53Z[0m proxy[2874de6f040028] [32mgru[0m [[34minfo[0m]Starting machine
+[2m2024-08-18T17:48:53Z[0m app[2874de6f040028] [32mgru[0m [[34minfo[0m]2024-08-18T17:48:53.633997112 [01J5K9B5HPWKSN290Z9TP9XM70:main] Running Firecracker v1.7.0
+[2m2024-08-18T17:48:54Z[0m app[2874de6f040028] [32mgru[0m [[34minfo[0m][    0.293578] PCI: Fatal: No config space access function found
+[2m2024-08-18T17:48:54Z[0m app[2874de6f040028] [32mgru[0m [[34minfo[0m][32m INFO[0m Starting init (commit: 20f21dc5f)...
+[2m2024-08-18T17:48:54Z[0m app[2874de6f040028] [32mgru[0m [[34minfo[0m][32m INFO[0m Preparing to run: `/cnb/process/web` as 1000
+[2m2024-08-18T17:48:54Z[0m app[2874de6f040028] [32mgru[0m [[34minfo[0m][32m INFO[0m [fly api proxy] listening at /.fly/api
+[2m2024-08-18T17:48:54Z[0m app[2874de6f040028] [32mgru[0m [[34minfo[0m]2024/08/18 17:48:54 INFO SSH listening listen_address=[fdaa:9:de46:a7b:17e:2e3c:e294:2]:22 dns_server=[fdaa::3]:53
+[2m2024-08-18T17:48:54Z[0m runner[2874de6f040028] [32mgru[0m [[34minfo[0m]Machine started in 1.077s
+[2m2024-08-18T17:48:54Z[0m proxy[2874de6f040028] [32mgru[0m [[34minfo[0m]machine started in 1.105097352s
+[2m2024-08-18T17:48:55Z[0m app[2874de6f040028] [32mgru[0m [[34minfo[0m][32m INFO[0m Main child exited normally with code: 0
+[2m2024-08-18T17:48:55Z[0m app[2874de6f040028] [32mgru[0m [[34minfo[0m][32m INFO[0m Starting clean up.
+[2m2024-08-18T17:48:55Z[0m app[2874de6f040028] [32mgru[0m [[34minfo[0m][33m WARN[0m could not unmount /rootfs: EINVAL: Invalid argument
+[2m2024-08-18T17:48:55Z[0m app[2874de6f040028] [32mgru[0m [[34minfo[0m][    1.792137] reboot: Restarting system
+[2m2024-08-18T17:48:55Z[0m runner[2874de6f040028] [32mgru[0m [[34minfo[0m]machine exited with exit code 0, not restarting
+[2m2024-08-18T17:49:01Z[0m proxy[2874de6f040028] [32mgru[0m [[34minfo[0m]waiting for machine to be reachable on 0.0.0.0:8080 (waited 7.248928779s so far)
+[2m2024-08-18T17:49:07Z[0m proxy[2874de6f040028] [32mgru[0m [[34minfo[0m]waiting for machine to be reachable on 0.0.0.0:8080 (waited 13.252064899s so far)
+[2m2024-08-18T17:49:13Z[0m proxy[2874de6f040028] [32mgru[0m [[34minfo[0m]waiting for machine to be reachable on 0.0.0.0:8080 (waited 19.256623158s so far)
+[2merror.message=[0m"failed to connect to machine: gave up after 15 attempts (in 24.259847848s)" [2m2024-08-18T17:49:18Z[0m proxy[2874de6f040028] [32mgru[0m [[31merror[0m][2mrequest.method=[0m"GET" [2mrequest.id=[0m"01J5K9DWJ19HKXJ3YKPTKQC42D-gru" 
+[2m2024-08-18T17:49:18Z[0m proxy[080e471c6539d8] [32mgru[0m [[34minfo[0m]Starting machine
+[2m2024-08-18T17:49:19Z[0m app[080e471c6539d8] [32mgru[0m [[34minfo[0m]2024-08-18T17:49:19.111602236 [01J5K9BH7HEDRY5FYNEF1BDTSR:main] Running Firecracker v1.7.0
+[2m2024-08-18T17:49:19Z[0m app[080e471c6539d8] [32mgru[0m [[34minfo[0m][    0.301467] PCI: Fatal: No config space access function found
+[2m2024-08-18T17:49:19Z[0m app[080e471c6539d8] [32mgru[0m [[34minfo[0m][32m INFO[0m Starting init (commit: 20f21dc5f)...
+[2m2024-08-18T17:49:19Z[0m app[080e471c6539d8] [32mgru[0m [[34minfo[0m][32m INFO[0m Preparing to run: `/cnb/process/web` as 1000
+[2m2024-08-18T17:49:19Z[0m app[080e471c6539d8] [32mgru[0m [[34minfo[0m][32m INFO[0m [fly api proxy] listening at /.fly/api
+[2m2024-08-18T17:49:19Z[0m app[080e471c6539d8] [32mgru[0m [[34minfo[0m]2024/08/18 17:49:19 INFO SSH listening listen_address=[fdaa:9:de46:a7b:170:c42c:a725:2]:22 dns_server=[fdaa::3]:53
+[2m2024-08-18T17:49:20Z[0m runner[080e471c6539d8] [32mgru[0m [[34minfo[0m]Machine started in 1.128s
+[2m2024-08-18T17:49:20Z[0m proxy[080e471c6539d8] [32mgru[0m [[34minfo[0m]machine started in 1.168514928s
+[2m2024-08-18T17:49:20Z[0m app[080e471c6539d8] [32mgru[0m [[34minfo[0m][32m INFO[0m Main child exited normally with code: 0
+[2m2024-08-18T17:49:20Z[0m app[080e471c6539d8] [32mgru[0m [[34minfo[0m][32m INFO[0m Starting clean up.
+[2m2024-08-18T17:49:20Z[0m app[080e471c6539d8] [32mgru[0m [[34minfo[0m][33m WARN[0m could not unmount /rootfs: EINVAL: Invalid argument
+[2m2024-08-18T17:49:20Z[0m app[080e471c6539d8] [32mgru[0m [[34minfo[0m][    1.788213] reboot: Restarting system
+[2m2024-08-18T17:49:21Z[0m runner[080e471c6539d8] [32mgru[0m [[34minfo[0m]machine exited with exit code 0, not restarting
+[2m2024-08-18T17:49:27Z[0m proxy[080e471c6539d8] [32mgru[0m [[34minfo[0m]waiting for machine to be reachable on 0.0.0.0:8000 (waited 7.166682263s so far)
+[2m2024-08-18T17:49:33Z[0m proxy[080e471c6539d8] [32mgru[0m [[34minfo[0m]waiting for machine to be reachable on 0.0.0.0:8000 (waited 13.105105693s so far)
